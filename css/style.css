@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    background-color: #e6e6e6;
+}
+
+header{
+    background-color: #f7b600;
+    text-align: center;
+}
+
+header h1{
+    padding: 20px;
+}
+
+header #branco{
+    color: white;
+}
+header #menu{
+    padding: 25px;
+}
+header #menu > a{
+    padding: 8px 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+header #menu > a:hover{
+    background-color: white;
+    color: #f7b600;
+    border-radius: 10px;
+}
+
+.container{
+    width: 63%;
+    margin: 10px auto;
+}
+.container a{
+    color: #f7b500;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container a:hover{
+    text-decoration: underline;
+}
+.container footer{
+    background-color: rgb(177, 170, 170);
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+main{
+    position: relative;
+}
+
+.box-1{
+    float: left;
+    background-color: white;
+    padding: 15px;
+    width: 640px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.box-1 h1{
+    color: #f7b600;
+}
+.box-1 img{
+    margin-top: 15px;
+}
+
+.recentes{
+    width: 280px;
+    height: 180px;
+    float: right;
+    background-color: white;
+    padding: 8px;
+}
+.recentes h2{
+    background-color: rgb(177, 170, 170);
+    margin-bottom: 5px;
+    padding: 5px 0px;
+}
+.recentes hr{
+    margin: 10px 0px;
+}
+
+.categorias{
+    width: 280px;
+    height: 120px;
+    float: right;
+    margin: 25px 0px;
+    background-color: white;
+    padding: 8px;
+}
+.categorias a{
+    display: block;
+}
+.categorias h2{
+    background-color: rgb(177, 170, 170);
+    padding: 5px 0px;
+}
